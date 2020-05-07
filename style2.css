@@ -2,12 +2,35 @@
   display: block;
   height: 13500px;
 }
+
 #v0 {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
 }
+
 p font-family helvetica {
   font-size: 24px;
+}
+
+button {
+  color: red;
+  position: fixed;
+  left: 3%;
+  top: 0;
+}
+
+h3 {
+  color: black;
+  position: fixed;
+  left: 50%;
+  top: 10%;
+}
+
+span {
+  color: black;
+  position: fixed;
+  left: 50%;
+  top: 10%;
 }
