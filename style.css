@@ -1,72 +1,42 @@
-body {
-  margin: 0;
-  padding: 0;
+#set-height {
+  display: block;
+  height: 7000px;
+  /*originally height: 13500px (video is 34 seconds long)*/
 }
 
-div {
-  width: 100%;
-  height: 600px;
-  overflow: hidden;
-  position:relative;
-}
-
-div img {
-  width: 100%;
+#v0 {
   position: fixed;
   top: 0;
+  left: 0;
+  width: 100%;
+}
+
+p font-family helvetica {
+  font-size: 24px;
+}
+
+#time {
+    position:fixed;
+    z-index: 1;
+}
+
+button {
+  color: red;
+  position: fixed;
+  left: 3%;
+  top: 0;
+}
+
+h3 {
+  color: black;
+  position: fixed;
   left: 50%;
-  transform: translate(-50%);
+  top: 10%;
 }
 
-.hiddenText{
-  text-align: center;
-  opacity: 0;
-}
-.main-text {
-  text-align: center;
-  width: 50%;
-}
-.secTitle{
-  text-align: center;
-  width: 50%;
-}
-.thdTitle{
-  text-align: center;
-  width: 50%;
-  float: right;
-}
-
-
-h2 {
-  text-align: center;
-  font-family: 'Merienda';
-  font-size: 40px;
-}
-
-p {
-  font-family: 'Roboto', sans-serif;
-  font-size: 20px;
-  /* line-height: 35px; */
-}
-
-#title{
-  opacity: 0;
-}
-#first{
-  text-align: center;
-   opacity: 0;
-}
-#second{
-  text-align: left;
-   opacity: 0;
-}
-#third{
-   opacity: 0;
-   text-align: right;
-}
-
-.afterScroll {
-    text-align: right;
-    display: block;
-    color: red;
+span {
+  color: black;
+  position: fixed;
+  left: 50%;
+  top: 10%;
 }
