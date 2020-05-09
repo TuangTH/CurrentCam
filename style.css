@@ -1,7 +1,56 @@
-#set-height {
+/* #set-height {
   display: block;
   height: 7000px;
-  /*originally height: 13500px (video is 34 seconds long)*/
+  originally height: 13500px (video is 34 seconds long)
+}*/
+body {
+  background: #fff;
+  display: block;
+  height: 13000px;
+}
+
+.info {
+  /*display: table; */
+  background-color: white;
+  margin: 0px auto 0px auto;
+  max-width: 300px;
+  padding: 3px;
+  text-align: center;
+  position: fixed;
+  right: 10%;
+  bottom: 35%;
+  z-index: 1;
+}
+
+.info h3 {
+  color: green;
+  margin: 0px;
+  line-height: 20px;
+  padding-top: 0px;
+  vertical-align: middle;
+  /*
+position: fixed;
+  right: 100px;
+  top: 100px;
+*/
+}
+
+p font-family helvetica {
+  font-size: 24px;
+}
+
+p {
+  z-index: 1;
+}
+
+p span {
+  display: table;
+  overflow-wrap: break-word;
+  /* keep the background color wrapped tight */
+}
+
+#one {
+  color: red;
 }
 
 #v0 {
@@ -11,32 +60,28 @@
   width: 100%;
 }
 
-p font-family helvetica {
-  font-size: 24px;
-}
-
 #time {
-    position:fixed;
-    z-index: 1;
+  color: green;
+  position: fixed;
+  /*    z-index: 1;*/
 }
 
-button {
-  color: red;
+#time1 {
+  color: yellow;
   position: fixed;
-  left: 3%;
-  top: 0;
+  left: 100px;
+  /*    z-index: 1;*/
 }
 
-h3 {
-  color: black;
-  position: fixed;
-  left: 50%;
-  top: 10%;
+#frame {
+  z-index: 1;
 }
 
-span {
-  color: black;
+/*
+h2 {
+  color: pink;
   position: fixed;
-  left: 50%;
-  top: 10%;
+  right: 100px;
+  top: 100px;
 }
+*/
