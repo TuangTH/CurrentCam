@@ -2,14 +2,28 @@
 <head>
   <meta charset="UTF-8">
   <title>Current Cam Scrolling Walk Through</title>
-  <!-- <script type="text/javascript" src="data/contents.json"></script> -->
+  <!-- <script type="text/javascript" src="data/txt/contents.json"></script> -->
   <script type="text/javascript" src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
   <script type="text/javascript" src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.16.1/TweenMax.min.js'></script>
   <script src="https://rawgit.com/allensarkisyan/VideoFrame/master/VideoFrame.min.js"></script>
   <!-- <script type="text/javascript" src="main.js"></script> -->
   <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;0,900;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
+
+  <div class="loading">
+    <p id="loadP">
+      Current is a speculation on the future of broadcasting cinema. It emerges from the intersection of contemporary trends in
+    live streaming culture, volumetric cinema, AI deep fakes and personalized narratives.
+  </p><br>
+  <button class="astext" id="btnfilm">WATCH FILM</button><br>
+<img src="data/img/current-logo.png" style="width:18%;" class="centerLogo"><br>
+    <button class="astext" id= "btnResh">RESEARCH</button><br>
+    <img src="data/icon/forward.png" style="width:2%;" class="centerLogo">
+
+  </div>
+
   <p id="time">00</p>
   <p id="time1">00</p>
   <div class="info" id="frame">
@@ -25,16 +39,16 @@
     <source type="video/ogg; codecs=&quot;theora, vorbis&quot;" src="https://www.html5rocks.com/tutorials/video/basics/Chrome_ImF.ogv">
     </source> -->
 
-    <!-- <source type="video/webm" src="./data/Chrome_ImF.webm">
+    <!-- <source type="video/webm" src="./data/vid/Chrome_ImF.webm">
     </source>
-    <source type="video/mp4" src="./data/Chrom_ImF.mp4">
+    <source type="video/mp4" src="./data/vid/Chrom_ImF.mp4">
     </source> -->
 
-    <source type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' src="data/vid_720p_34sec_c.mp4">
+    <source type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' src="data/vid/vid_720p_34sec_c.mp4">
 
-    <!-- <source type="video/webm" src="./data/vid-2mb.webm">
+    <!-- <source type="video/webm" src="./data/vidvid-2mb.webm">
     </source>
-    <source type="video/ogg" src="./data/vid-3mb.ogg">
+    <source type="video/ogg" src="./data/vid/vid-3mb.ogg">
     </source> -->
 
     <p>Sorry, your browser does not support the &lt;video&gt; element.</p>

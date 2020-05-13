@@ -17,7 +17,7 @@ var contentObj = (function() {
   $.ajax({
     'async': false,
     'global': false,
-    'url': 'data/contents.json',
+    'url': 'data/txt/contents.json',
     'dataType': "json",
     'success': function(data) {
       contentObj = data;
