@@ -132,7 +132,7 @@ img {
 }
 
 #btnfilm {
-  margin: 70px auto 0px auto;
+  margin: 70px auto 10px auto;
   /* max-width: 100px;
    padding: 0px;
    text-align: center;
@@ -142,7 +142,7 @@ img {
 }
 
 #btnResh {
-  margin: 100px auto 0px auto;
+  margin: 100px auto 10px auto;
   /*max-width: 100px;
    padding: 0px;
    text-align: center;
