@@ -1,3 +1,3 @@
 # CurrentCam
  
-prototype website version 1.0
+prototype in development
