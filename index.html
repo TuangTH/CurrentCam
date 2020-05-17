@@ -29,11 +29,17 @@
   <p id="time">00</p>
   <p id="time1">00</p>
   <div class="info" id="frame">
-    <h3 id="title">Current Cam</h3>
-    <p id="one"><span>This text will be changed at the 8th second of the walk through. Scrolling to move.</span></p>
+    <div class="firstpage">
+      <h3 id="title">Current Cam</h3>
+      <p id="one"><span>This text will be changed following what listed in 'content.json'. Scrolling to move.</span></p>
+    </div>
+    <div class="secondpage">
+      This is page 2 where the detail and images will be shown.<br><br>
+      <button class="astext" id="esc">"GO BACK"</button>
+    </div>
   </div>
   <div id="set-height"></div>
-  <p id="time"></p>
+  <!-- <p id="time"></p> -->
   <video id="v0" tabindex="0" autobuffer="autobuffer" preload="preload">
 
     <!-- <source type="video/webm; codecs=&quot;vp8, vorbis&quot;" src="https://www.html5rocks.com/tutorials/video/basics/Chrome_ImF.webm">
@@ -55,8 +61,21 @@
 
     <p>Sorry, your browser does not support the &lt;video&gt; element.</p>
   </video>
-  <script type="text/javascript" src="main.js"></script>
 
+  <script type="text/javascript" src="main.js"></script>
+  <script type="text/javascript">
+  // console.log("it's a click!");
+  $(document).ready(function () {
+      $('.info').on('click', '.firstpage', function (ev) {
+        console.log("it's a click!");
+          // $(this).toggleClass('animate');
+          $('.secondpage').toggleClass('animate');
+      }).on('click', '#esc', function (ev) {
+          $('.secondpage').toggleClass('animate');
+          // $('.firstpage').toggleClass('animate');
+      });
+  });
+  </script>
 </body>
 
 </html>

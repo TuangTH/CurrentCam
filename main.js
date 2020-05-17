@@ -44,6 +44,8 @@ var k;
 // pause video on load
 vid.pause();
 
+
+
 // pause video on document scroll (stops autoplay once scroll started)
 window.onscroll = function() {
   vid.pause();
