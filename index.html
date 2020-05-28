@@ -22,7 +22,7 @@
     <button class="astext" id="btnfilm">WATCH FILM</button><br>
     <img src="data/img/current-logo.png" style="width:18%;" class="centerLogo"><br>
     <button class="astext" id="btnResh">RESEARCH</button><br>
-    <img src="data/icon/forward.png" style="width:2%;" class="centerLogo">
+    <img src="data/icon/forward.png" style="width:2%;" id="forwardicon">
 
   </div>
 
@@ -31,13 +31,11 @@
   <div class="info" id="frame">
     <div class="firstpage">
       <h3 id="title">Enviromental Reconstructions</h3>
-      <p id="one"><span>
-‘Current’ focuses on democratising reconstruction techniques to facilitate a collective contribution to urban archives.<br>
-</span></p><br>
+      <p id="one"><span>‘Current’ focuses on democratising reconstruction techniques to facilitate a collective contribution to urban archives.</span></p><br>
 <button class="astext" id="btnLearn"> Learn More</button>
     </div>
     <div class="secondpage">
-      This is page 2 where the detail and images will be shown.<br><br>
+    <p id="two">  This is page 2 where the detail and images will be shown.</p><br><br>
       <button class="astext" id="esc">"GO BACK"</button>
     </div>
   </div>
@@ -67,17 +65,16 @@
 
   <script type="text/javascript" src="main.js"></script>
   <script type="text/javascript">
-  // console.log("it's a click!");
-  $(document).ready(function () {
-      $('.info').on('click', '.firstpage', function (ev) {
-        console.log("it's a click!");
-          // $(this).toggleClass('animate');
-          $('.secondpage').toggleClass('animate');
-      }).on('click', '#esc', function (ev) {
-          $('.secondpage').toggleClass('animate');
-          // $('.firstpage').toggleClass('animate');
-      });
-  });
+  // $(document).ready(function () {
+  //     $('.info').on('click', '.firstpage', function (ev) {
+  //       console.log("it's a click!");
+  //         // $(this).toggleClass('animate');
+  //         $('.secondpage').toggleClass('animate');
+  //     }).on('click', '#esc', function (ev) {
+  //         $('.secondpage').toggleClass('animate');
+  //         // $('.firstpage').toggleClass('animate');
+  //     });
+  // });
   </script>
 </body>
 

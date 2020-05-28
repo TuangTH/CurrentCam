@@ -40,11 +40,23 @@ var timeDivider = 400,
   compareNum = 6;
 var ptag = $('#one')[0]; //    var ptag = document.getElementById('one');
 var htag = $('#title')[0];
+var ptag2 = $('#two')[0];
 var k;
+var atMinute=0;
 // pause video on load
 vid.pause();
 
-
+$(document).ready(function () {
+    $('.info').on('click', '.firstpage', function (ev) {
+      console.log("it's a click!");
+      console.log(atMinute);
+        // $(this).toggleClass('animate');
+        $('.secondpage').toggleClass('animate');
+    }).on('click', '#esc', function (ev) {
+        $('.secondpage').toggleClass('animate');
+        // $('.firstpage').toggleClass('animate');
+    });
+});
 
 // pause video on document scroll (stops autoplay once scroll started)
 window.onscroll = function() {
@@ -52,22 +64,24 @@ window.onscroll = function() {
   $("#time").text(vid.currentTime);
   durationTime = window.pageYOffset / timeDivider;
   $("#time1").text(durationTime);
-  //An option for getting contentOnj message at specific time ('at').
+  //An option for getting contentObj message at specific time ('at').
   //        if ((durationTime > contentObj[0].at) && (durationTime <= (contentObj[0].at)+1)){
   //          ptag.innerHTML = 'Observe the Change. I have changed.';
   //          ptag.innerHTML = contentObj[0].msg;
   //        }
   for (var k in contentObj) {
     // loop through every contentObj list
-          console.log(contentObj[k]);
+          // console.log(contentObj[k]);
     if (contentObj[k].hasOwnProperty('at')) {
       var min = contentObj[k].at
-      console.log(min);
+      // console.log(min);
       if ((min > durationTime) && (min <= durationTime + 1)) {
-        console.log("min: " + min);
-        console.log("message: " + contentObj[k].msg);
+        // console.log("min: " + min);
+        // console.log("message: " + contentObj[k].msg);
+        atMinute = min;
         ptag.innerHTML = contentObj[k].msg;
         htag.innerHTML = contentObj[k].title;
+        ptag2.innerHTML = contentObj[k].msg2;
       }
     }
 

@@ -51,7 +51,7 @@ body {
     -webkit-transition: transform 1s ease; */
 }
 .secondpage{
-  background-color: pink;
+  background-color: white;
   position: fixed;
   width: 100%;
   height: 100%;
@@ -122,6 +122,9 @@ img {
   color: white;
   margin: 10px auto 0px auto;
 }
+#two {
+  color: black;
+}
 
 #v0 {
   position: fixed;
@@ -190,9 +193,10 @@ img {
 }
 #esc{
     margin: 10px auto 10px auto;
+    color: black;
 }
 
-#centerLogo {
+.centerLogo {
   margin: 0px auto 0px auto;
   /* display: flex;
   margin-left: auto;
@@ -201,6 +205,18 @@ img {
   top: 100px;
   left: 0px; */
 }
+#forwardicon{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* margin: auto auto auto -12px; */
+  /* width: 30%;/ */
+  position: fixed;
+  top: auto;
+  left: 49%;
+
+}
+
 
 /*
 h2 {
