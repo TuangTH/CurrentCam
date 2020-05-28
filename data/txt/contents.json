@@ -1,12 +1,26 @@
-[         {
-               "at": 8,
-               "msg": "THIS IS A 2-3 SENTENCE TEXTS TO EXPLAIN SOMETHING. BLAH BLAH BLAH.",
-           "title": "TITLE OF SOMETHING"
-                },
-                 {
-               "at": 13,
-               "msg": "ANOTHER DESCRIPTION TALKS ABOUT STUFF. BLAH BLAH BLAH",
-                "title": "TITLE OF THIS THING"
-                }
-
+[{
+    "at": 5,
+    "title": "AI OPTIMIZATION",
+    "msg": " 'Current' configures an aesthetic vocabulary of cinematology, expanding the spectrum of aesthetic semblance by experimenting with image-processing neural networks: Generative Adversarial Neural Network (GAN) and Autoencoder."
+  }, {
+    "at": 8,
+    "title": "LIVESTREAM",
+    "msg": "Livestream encompasses extraordinary moments alongside an infinite feed of the mundane, it is a communication device that spans across cities and borders to circulate information in real-time through micro-value transactions and branded virtual signalling."
+  }, {
+    "at": 10,
+    "title": "Non-Human Perspectives",
+    "msg": "The spectrum of content for livestream broadens, embracing perspective from non-human agents, both animal and machine. The infinite data input from autonomous cars forms an open-source cinema, a communication device that is a city scale meta-infrastructure. In what ways can we structure this massive amount of data into a useful tool for urban design and collective thinking? We propose 3D reconstruction of environments and events from  autonomous cars, animal cams, city surveillance cameras and other non-human perspectives."
+  }, {
+    "at": 15,
+    "title": "Volumetric Cinema",
+    "msg": "The contemporary advent of new sensing technologies has shifted the current experience of visual content to include 3 dimensions. With remote satellite sensing we have transitioned from viewing the earth from a planar map to a 3 dimensional globe. Depth lidar sensors and motion trackers used in cinema, virtual reality and gaming industries have transformed the cinematic language of navigation into an editing technique: instead of pre cut-to-cut montage, we now experience navigation-based world-to-world transitions. Within a VR or gaming environment, the space constructs as the user navigates through it, providing a recursive interaction for users to shape the content they experience in real time through their attention and navigation."
+  }, {
+    "at": 26,
+    "title": "DEEP FAKES",
+    "msg": "The outsourcing of imagination to Artificial intelligence can most readily be observed in the cultural phenomena of generative adversarial networks (GANs) and deep fakes."
+  }, {
+    "at": 30,
+    "title": "Microlicencing ",
+    "msg": "The emergence of CGI influencers on social media pushes the limits of the body. As non-human entities progressively consume the market’s economy, what is the granularity of a body that can be licensed? What is the criteria for value when crediting animals and plants, and how can we return the resources used up by the attention economy back to nature?"
+  }
 ]

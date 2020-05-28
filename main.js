@@ -64,7 +64,7 @@ window.onscroll = function() {
       var min = contentObj[k].at
       console.log(min);
       if ((min > durationTime) && (min <= durationTime + 1)) {
-        console.log(min);
+        console.log("min: " + min);
         console.log("message: " + contentObj[k].msg);
         ptag.innerHTML = contentObj[k].msg;
         htag.innerHTML = contentObj[k].title;
